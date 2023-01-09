@@ -1,0 +1,10 @@
+@mixin position($bg-value, $value_x, $value_y, $index-value, $right: false) {
+    top: $value_y;
+    left: $value_x;
+    z-index: $index-value;
+    background-color: $bg-value;
+    @if $right {
+        left: unset;
+        right: $value_x;
+    }
+}

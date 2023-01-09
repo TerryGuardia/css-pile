@@ -1,0 +1,223 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+}
+
+main div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#pile_1 {
+  position: relative;
+  height: 280px;
+  width: 280px;
+}
+
+#pile_1 .item_1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_1 .item_2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_1 .item_3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_2 {
+  position: relative;
+  height: 280px;
+  width: 280px;
+}
+
+#pile_2 .item_1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_2 .item_2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_2 .item_3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_3 {
+  position: relative;
+  height: 280px;
+  width: 280px;
+}
+
+#pile_3 .item_1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_3 .item_2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_3 .item_3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_4 {
+  position: relative;
+  height: 280px;
+  width: 280px;
+}
+
+#pile_4 .item_1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_4 .item_2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_4 .item_3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: black 2px solid;
+}
+
+#pile_1 .item_1 {
+  top: 80px;
+  left: -80px;
+  z-index: 3;
+  background-color: blue;
+  left: unset;
+  right: -80px;
+}
+
+#pile_1 .item_2 {
+  top: 40px;
+  left: -40px;
+  z-index: 2;
+  background-color: white;
+  left: unset;
+  right: -40px;
+}
+
+#pile_1 .item_3 {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: red;
+  left: unset;
+  right: 0;
+}
+
+#pile_2 .item_1 {
+  top: 80px;
+  left: 80px;
+  z-index: 3;
+  background-color: blue;
+  left: unset;
+  right: 80px;
+}
+
+#pile_2 .item_2 {
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+  background-color: white;
+  left: unset;
+  right: 40px;
+}
+
+#pile_2 .item_3 {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: red;
+  left: unset;
+  right: 0;
+}
+
+#pile_3 .item_1 {
+  top: 80px;
+  left: -80px;
+  z-index: 3;
+  background-color: blue;
+  left: unset;
+  right: -80px;
+}
+
+#pile_3 .item_2 {
+  top: 120px;
+  left: -40px;
+  z-index: 2;
+  background-color: white;
+  left: unset;
+  right: -40px;
+}
+
+#pile_3 .item_3 {
+  top: 160px;
+  left: 0;
+  z-index: 1;
+  background-color: red;
+  left: unset;
+  right: 0;
+}
+
+#pile_4 .item_1 {
+  top: 80px;
+  left: 0;
+  z-index: 3;
+  background-color: blue;
+}
+
+#pile_4 .item_2 {
+  top: 120px;
+  left: 40px;
+  z-index: 2;
+  background-color: white;
+}
+
+#pile_4 .item_3 {
+  top: 160px;
+  left: 80px;
+  z-index: 1;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

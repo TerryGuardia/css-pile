@@ -1,0 +1,78 @@
+@import '_mixin';
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+
+main div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@for $i from 1 through 4 {
+    #pile_#{$i} {
+        position: relative;
+        height: 280px;
+        width: 280px;
+    }
+
+    @for $j from 1 through 3 {
+        #pile_#{$i} .item_#{$j} {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: black 2px solid;
+        }
+    }
+}
+
+#pile_1 .item_1 {
+    @include position(blue, -80px, 80px, 3, $right: true);
+}
+
+#pile_1 .item_2 {
+    @include position(white, -40px, 40px, 2, $right: true);
+}
+
+#pile_1 .item_3 {
+    @include position(red, 0, 0, 1, $right: true);
+}
+
+#pile_2 .item_1 {
+    @include position(blue, 80px, 80px, 3, $right: true);
+}
+
+#pile_2 .item_2 {
+    @include position(white, 40px, 40px, 2, $right: true);
+}
+
+#pile_2 .item_3 {
+    @include position(red, 0, 0, 1, $right: true);
+}
+
+#pile_3 .item_1 {
+    @include position(blue, -80px, 80px, 3, $right: true);
+}
+
+#pile_3 .item_2 {
+    @include position(white, -40px, 120px, 2, $right: true);
+}
+
+#pile_3 .item_3 {
+    @include position(red, 0, 160px, 1, $right: true);
+}
+
+#pile_4 .item_1 {
+    @include position(blue, 0, 80px, 3, $right: false);
+}
+
+#pile_4 .item_2 {
+    @include position(white, 40px, 120px, 2, $right: false);
+}
+
+#pile_4 .item_3 {
+    @include position(red, 80px, 160px, 1, $right: false);
+}
